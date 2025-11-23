@@ -42,7 +42,7 @@ editor: source
 
 ### Bridging R and LLMs
 
--   Can produce output that is immediately usable in R
+-   Outputs are immediately usable in R
 
 -   Integrations to 'see' the R session
 
