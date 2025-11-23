@@ -1,0 +1,16 @@
+---
+title: "Course Website"
+toc: false
+---
+
+# WEEN 2025 - Integrating Large Language Model tools to our R workflows
+
+All slides and materials live here.This one-day online course is organized by Physalia courses in conjunction with the The Wales Ecology & Evolution Network (WEEN) Conference on Monday, 24th November (the Monday following the conference).
+
+This site may be updated after the course to correct any issues, or to add links or interesting topics discussed during the day.
+
+
+Instructor: Luis D. Verde Arregoitia  
+
+<span class='code'>📆 &ensp; 24 November, 2025</span>\
+<span class='code'>⏰ &ensp; 13:00-18:00 (Berlin Time)</span>\

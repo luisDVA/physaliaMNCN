@@ -1,0 +1,22 @@
+---
+title: "Course Materials"
+---
+
+## Data and scripts
+
+
+[[All course files](coursefiles/coursefiles.zip)]{style="font-size: 1.2rem; background-color: #fff0f3; padding: 1px;	border-radius: 6px; text-align: center;"}
+
+
+## Slide decks
+
+
+[Setup and Intros](setup.qmd){.external target="_blank"}
+
+[Brief background](background.qmd){.external target="_blank"}
+
+[Hands-on](hands-on.qmd){.external target="_blank"}
+
+[Extensions and more](extensions.qmd){.external target="_blank"}
+
+
