@@ -1,11 +1,7 @@
 ---
 title: "Integrating Large Language Model tools to our R workflows"
-subtitle: "Physalia - Wales Ecology and Evolution Network"
-title-slide-attributes:
-  data-background-image: /imgs/weenlogo.jpg
-  data-background-size: contain
-  data-background-opacity: "0.15"
-date: "November 24 2025"
+subtitle: "9th Scientific Conference - National Museum of Natural Sciences (MNCN-CSIC)"
+date: "March 25 2026"
 author: "Luis D. Verde Arregoitia"
 format:
   revealjs:
@@ -17,19 +13,9 @@ editor: source
 
 # Some updates 📰
 
--   Changes to the SWE-bench (SoftWare Engineering evaluation) [leaderboard](https://scale.com/leaderboard/swe_bench_pro_public)
+-   Changes (yet again) to the SWE-bench (SoftWare Engineering evaluation) [leaderboard](https://scale.com/leaderboard/swe_bench_pro_public)
 
--   RStudio Sidebar
-
--   AI + RStudio [tutorial](https://www.eventbrite.cl/e/coding-with-ai-in-rstudio-tickets-1962817615325?aff=oddtdtcreator) as part of LatinR, December 2nd.
-
-## RStudio Sidebar + side::kick() 🎛️
-
--   RStudio Sidebar (a new full-height pane for RStudio), available as of early Nov.
-
--   [side](https://github.com/simonpcouch/side) package
-
--   Install a daily RStudio build from \< 2 weeks ago. Enable sidebar using the command palette, run `side::kick()`
+- Posit AI service
 
 # Extensions 🧩
 
@@ -55,6 +41,10 @@ a)  Write roxygen2 documentation for the function in `randompenguins.R`
 <br/>
 
 b)  Write comments or prose explaining what the code does
+
+## Extra
+
+Have any of the assistants translate the code to Python
 
 ## Context awareness
 
@@ -208,10 +198,8 @@ Let's write a wiki for the [data and code](https://zenodo.org/records/2727206) a
 
 <br/><br/>
 
+-   CLI tools like Claude Code or Gemini CLI (H. Wickham keynote at rainbowR 2026)  
 -   [ggbot2](https://github.com/tidyverse/ggbot2)
 -   [myownrobs](https://myownrobs.github.io/myownrobs/)\
--   cursor IDE\
--   [Lotas](https://www.lotas.ai/) IDE offerings\
--   Positron [databot](https://positron.posit.co/databot.html) for EDA (experimental)
 
 # 👋 Thanks!

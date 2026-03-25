@@ -1,11 +1,7 @@
 ---
 title: "Integrating Large Language Model tools to our R workflows"
-title-slide-attributes:
-  data-background-image: /imgs/weenlogo.jpg
-  data-background-size: contain
-  data-background-opacity: "0.15"
-subtitle: "Physalia - Wales Ecology and Evolution Network"
-date: "November 24 2025"
+subtitle: "9th Scientific Conference - (MNCN-CSIC) and Physalia Courses Online"
+date: "March 25 2026"
 author: "Luis D. Verde Arregoitia"
 format:
   revealjs:
@@ -16,11 +12,10 @@ editor: visual
 
 # Background
 
-
 ## LLMs can help us with:
 
 ::: large-font-slide
-Text generation, translation, sentiment analysis, writing and debugging code, generating images and videos, etc.
+Text generation, translation, sentiment analysis, writing and debugging code, text to speech, speech to text, generating images and videos, etc.
 :::
 
 ## Where are the models? Who makes them?

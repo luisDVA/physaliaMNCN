@@ -10,8 +10,8 @@
   <meta name="generator" content="quarto-1.7.31">
 
   <meta name="author" content="Luis D. Verde Arregoitia">
-  <meta name="dcterms.date" content="2025-11-24">
-  <title>WEEN 2025 - LLM tools for R – Integrating Large Language Model tools to our R workflows</title>
+  <meta name="dcterms.date" content="2026-03-25">
+  <title>MNCN-CSIC 2026 - LLM tools for R – Integrating Large Language Model tools to our R workflows</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +30,7 @@
       vertical-align: middle;
     }
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-d1218d6747de6e0959bbffb1a801751d.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-81a9ba0ae49b102db70a26e30fbfba7b.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -127,9 +127,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="./imgs/weenlogo.jpg" data-background-opacity="0.15" data-background-size="contain" class="quarto-title-block center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Integrating Large Language Model tools to our R workflows</h1>
-  <p class="subtitle">Physalia - Wales Ecology and Evolution Network</p>
+  <p class="subtitle">9th Scientific Conference - National Museum of Natural Sciences (MNCN-CSIC) &amp; Physalia Courses Online</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -139,7 +139,7 @@ Luis D. Verde Arregoitia
 </div>
 </div>
 
-  <p class="date">2025-11-24</p>
+  <p class="date">2026-03-25</p>
 </section>
 <section id="hello" class="slide level2">
 <h2>Hello!</h2>
@@ -158,7 +158,7 @@ Luis D. Verde Arregoitia
 </li>
 <li>Online and in-person courses all year (Physalia Courses, Estación R, R for the Rest of Us)<br>
 </li>
-<li>rOpenSci mentor 2023-2026<br>
+<li>rOpenSci mentor 2023-2027<br>
 </li>
 <li>Package developer<br>
 </li>
@@ -171,9 +171,14 @@ Luis D. Verde Arregoitia
 </section>
 <section id="online-guide" class="slide level2">
 <h2>Online Guide</h2>
-<p>-Tools, packages, and extensions for working with LLMs + R - English and Spanish, updated 2x/month</p>
+<p>Tools, packages, and extensions for working with LLMs + R - Eng and Spa, updated monthly</p>
 
 <img data-src="imgs/llmcov.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://luisdva.github.io/llmsr-book/">home</a></p></section>
+<section id="vita-ex-machina" class="slide level2">
+<h2>vita ex machina</h2>
+<p>Collaborative blog on AI in science</p>
+
+<img data-src="imgs/vita.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://vitaexmachina.substack.com/about">home</a></p></section>
 <section id="more-introductions" class="slide level2">
 <h2>🤝 More introductions</h2>
 <ul>
@@ -226,7 +231,7 @@ Luis D. Verde Arregoitia
 <h3 id="rstudio">RStudio</h3>
 <ul>
 <li>Familiar and trusted</li>
-<li>AI tools available (fewer GUI options)</li>
+<li>AI tools available (particularly as of Feb 2026)</li>
 <li>Not going anywhere</li>
 </ul>
 </div><div class="column" style="width:50%;">
@@ -292,7 +297,21 @@ Luis D. Verde Arregoitia
 <section id="api-key-setup" class="slide level2">
 <h2>API key setup</h2>
 <p>We’ll provide keys for two popular providers. These will only be active during the course hours.</p>
-<h3 id="r">R</h3>
+</section>
+<section id="subscriptions-vs-api-keys" class="slide level2">
+<h2>Subscriptions vs API keys</h2>
+<ul>
+<li><p>Pricing depends on usage</p></li>
+<li><p>Subscriptions range from ~5 to 250 USD/month for a single user, with limits on the number of requests and/or tokens</p></li>
+</ul>
+<p><a href="https://atxp.ai/blog/ai-api-cost-comparison/">2026 Cost comparison</a> by ATPX</p>
+</section>
+<section id="section-2" class="slide level2">
+<h2></h2>
+
+<img data-src="imgs/joe.png" class="r-stretch"></section>
+<section id="setup---r" class="slide level2">
+<h2>Setup - R</h2>
 <p>Temporary: <code>Sys.setenv(OPENAI_API_KEY = "api_key")</code> (quoted) or “<code>ANTHROPIC_API_KEY</code>”</p>
 <p>Permanent: <code>usethis::edit_r_environ()</code></p>
 </section></section>

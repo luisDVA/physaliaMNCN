@@ -2,13 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap');
+@import url('https://fonts.bunny.net/css?family=fredoka:400');
+@import url('https://fonts.bunny.net/css?family=google-sans-code:300');
 
 /*-- scss:defaults --*/
 
 // colors
 $teal-light1: #fcfcfc;
 $teal-light2: #745775;
-$teal:        #C8102E;
+$teal:        #AE1A1A;
 $teal-dark1:  #4c074d;
 $teal-dark2:  #76043d;
 $orange:      #9ac6c5;
@@ -20,7 +22,7 @@ $grey: #D3D3D3;
 $backgroundColor: $teal-light1;
 
 // Primary/body text
-$mainFont: 'Special Gothic', 'Nunito', sans-serif;
+$mainFont: 'Fredoka', 'Special Gothic', 'Nunito', sans-serif;
 $mainFontSize: 36px;
 
 // Vertical spacing between blocks of text
@@ -28,7 +30,7 @@ $blockMargin: 0.3em;
 
 // Headings
 $headingMargin: 0 0 $blockMargin 0;
-$headingFont: 'TikTok Sans', serif;
+$headingFont: 'Fredoka', serif;
 $headingColor: $teal;
 $headingLineHeight: 1em;
 $headingLetterSpacing: 2px;
@@ -41,7 +43,7 @@ $heading2Size: 1.8em;
 $heading3Size: 1.5em;
 $heading4Size: 1.0em;
 
-$codeFont: 'Fira Mono', monospace;
+$codeFont: 'Google Sans Code', monospace;
 $code-block-font-size: 0.8em;
 
 // Links and actions

@@ -3,26 +3,24 @@ project:
   output-dir: docs
 
 website:
-  title: "WEEN 2025 - LLM tools for R"
+  title: "MNCN-CSIC 2026 - LLM tools for R"
   navbar:
     background: "#01497c"
     pinned: true
     align: left
     left: 
-      - href: index.qmd
-        text: Home
       - href: materials.qmd
         text: Course materials
   page-footer:
     left: "Built with [Quarto](https://quarto.org/)."
-    right: "Luis D. Verde Arregoitia - 2025"
+    right: "Luis D. Verde Arregoitia - 2026"
 
 format:
   html:
     theme: 
-      light: [flatly, web_styles.scss]
+      light: [journal, web_styles.scss]
     toc: true
-    mainfont: "Inclusive Sans"
+    mainfont: "Fredoka"
     
 execute:
   freeze: auto

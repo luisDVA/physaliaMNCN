@@ -1,12 +1,8 @@
 ---
 title: "Integrating Large Language Model tools to our R  workflows"
-title-slide-attributes:
-  data-background-image: /imgs/weenlogo.jpg
-  data-background-size: contain
-  data-background-opacity: "0.15"
-subtitle: "Physalia - Wales Ecology and Evolution Network"
+subtitle: "9th Scientific Conference - National Museum of Natural Sciences (MNCN-CSIC) & Physalia Courses Online"
 author: "Luis D. Verde Arregoitia"
-date: "November 24 2025"
+date: "March 25 2026"
 format:
   revealjs:
     slide-number: true
@@ -31,22 +27,28 @@ library(fontawesome)
 
 :::: {.column width="70%"}
 ::: smaller-font
--   Mammals, macroecology, conservation  
+-   Mammals, macroecology, conservation\
 -   Certified Instructor - Posit(RStudio) & The Carpentries\
--   Online and in-person courses all year (Physalia Courses, Estación R, R for the Rest of Us)  
--   rOpenSci mentor 2023-2026  
--   Package developer  
--   R conference speaker + organizer  
--   R-Ladies collaborator 
+-   Online and in-person courses all year (Physalia Courses, Estación R, R for the Rest of Us)\
+-   rOpenSci mentor 2023-2027\
+-   Package developer\
+-   R conference speaker + organizer\
+-   R-Ladies collaborator
 :::
 ::::
 ::::::
 
 ## Online Guide
 
--Tools, packages, and extensions for working with LLMs + R - English and Spanish, updated 2x/month
+Tools, packages, and extensions for working with LLMs + R - Eng and Spa, updated monthly
 
 ![[home](https://luisdva.github.io/llmsr-book/)](imgs/llmcov.png)
+
+## vita ex machina
+
+Collaborative blog on AI in science
+
+![[home](https://vitaexmachina.substack.com/about)](imgs/vita.png)
 
 ## 🤝 More introductions
 
@@ -97,7 +99,7 @@ Maëlle Salmon (2021)\
 ### RStudio
 
 -   Familiar and trusted
--   AI tools available (fewer GUI options)
+-   AI tools available (particularly as of Feb 2026)
 -   Not going anywhere
 :::
 
@@ -108,6 +110,7 @@ Maëlle Salmon (2021)\
 -   Built-in LLM tools
 -   Constant development
 -   Alternatives available
+
 :::
 :::::
 
@@ -126,7 +129,6 @@ Positron for RStudio Users: A Gentle Introduction\
 </br> </br>
 
 We'll use cloud-based models for this course. More on this later.
-
 
 ## API Keys
 
@@ -173,9 +175,21 @@ Ted Laderas <br> [A gRadual introduction to web APIs and JSON](https://www.youtu
 
 We'll provide keys for two popular providers. These will only be active during the course hours.
 
-### R
+## Subscriptions vs API keys
 
-Temporary: `Sys.setenv(OPENAI_API_KEY = "api_key")` (quoted)  or "`ANTHROPIC_API_KEY`"
+- Pricing depends on usage  
+
+- Subscriptions range from ~5 to 250 USD/month for a single user, with limits on the number of requests and/or tokens
+
+[2026 Cost comparison](https://atxp.ai/blog/ai-api-cost-comparison/) by ATPX
+
+##
+
+![](imgs/joe.png)
+
+## Setup - R
+
+Temporary: `Sys.setenv(OPENAI_API_KEY = "api_key")` (quoted) or "`ANTHROPIC_API_KEY`"
 
 Permanent: `usethis::edit_r_environ()`
 

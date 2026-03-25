@@ -33,7 +33,7 @@
 
 /* other quarto variables */
 :root {
-  --quarto-font-monospace: "Martian Mono", monospace;
+  --quarto-font-monospace: "Google Sans Code", monospace;
 }
 
 /* syntax highlight based on Pandoc's rules */
@@ -233,4 +233,4 @@ code span.wa {
   content: "</";
 }
 
-/*# sourceMappingURL=d3474447116feff76606517d5219417e.css.map */
+/*# sourceMappingURL=8810278db3ac085927c1c9b0e59254ab.css.map */

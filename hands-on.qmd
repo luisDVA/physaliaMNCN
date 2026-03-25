@@ -1,11 +1,7 @@
 ---
 title: "Integrating Large Language Model tools to our R workflows"
-title-slide-attributes:
-  data-background-image: /imgs/weenlogo.jpg
-  data-background-size: contain
-  data-background-opacity: "0.2"
-subtitle: "Physalia - Wales Ecology and Evolution Network"
-date: "November 24 2025"
+subtitle: "9th Scientific Conference - (MNCN-CSIC) and Physalia Courses Online"
+date: "March 25 2026"
 author: "Luis D. Verde Arregoitia"
 format:
   revealjs:
@@ -169,7 +165,14 @@ Cool IDE features:
 -   Highly integrated
 -   Meant for R and Python
 -   Limited models supported at present
+-   Databot feature for exploratory data analysis and visualization
 -   👀
+
+## Posit Assistant
+
+- Available as of last month
+- Subscription-based, 20 USD/month
+- Available in RStudio (for now)
 
 ## 
 

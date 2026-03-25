@@ -10,8 +10,8 @@
   <meta name="generator" content="quarto-1.7.31">
 
   <meta name="author" content="Luis D. Verde Arregoitia">
-  <meta name="dcterms.date" content="2025-11-24">
-  <title>Large Language Model tools for R – Integrating Large Language Model tools to our R workflows</title>
+  <meta name="dcterms.date" content="2026-03-25">
+  <title>MNCN-CSIC 2026 - LLM tools for R – Integrating Large Language Model tools to our R workflows</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -96,7 +96,7 @@
     code span.vs { color: #20794d; } /* VerbatimString */
     code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
-  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-d1218d6747de6e0959bbffb1a801751d.css">
+  <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto-81a9ba0ae49b102db70a26e30fbfba7b.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -193,9 +193,9 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-image="./imgs/weenlogo.jpg" data-background-opacity="0.15" data-background-size="contain" class="quarto-title-block center">
+<section id="title-slide" class="quarto-title-block center">
   <h1 class="title">Integrating Large Language Model tools to our R workflows</h1>
-  <p class="subtitle">Physalia - Wales Ecology and Evolution Network</p>
+  <p class="subtitle">9th Scientific Conference - National Museum of Natural Sciences (MNCN-CSIC)</p>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -205,25 +205,16 @@ Luis D. Verde Arregoitia
 </div>
 </div>
 
-  <p class="date">2025-11-24</p>
+  <p class="date">2026-03-25</p>
 </section>
-<section>
 <section id="some-updates" class="title-slide slide level1 center">
 <h1>Some updates 📰</h1>
 <ul>
-<li><p>Changes to the SWE-bench (SoftWare Engineering evaluation) <a href="https://scale.com/leaderboard/swe_bench_pro_public">leaderboard</a></p></li>
-<li><p>RStudio Sidebar</p></li>
-<li><p>AI + RStudio <a href="https://www.eventbrite.cl/e/coding-with-ai-in-rstudio-tickets-1962817615325?aff=oddtdtcreator">tutorial</a> as part of LatinR, December 2nd.</p></li>
+<li><p>Changes (yet again) to the SWE-bench (SoftWare Engineering evaluation) <a href="https://scale.com/leaderboard/swe_bench_pro_public">leaderboard</a></p></li>
+<li><p>Posit AI service</p></li>
 </ul>
 </section>
-<section id="rstudio-sidebar-sidekick" class="slide level2">
-<h2>RStudio Sidebar + side::kick() 🎛️</h2>
-<ul>
-<li><p>RStudio Sidebar (a new full-height pane for RStudio), available as of early Nov.</p></li>
-<li><p><a href="https://github.com/simonpcouch/side">side</a> package</p></li>
-<li><p>Install a daily RStudio build from &lt; 2 weeks ago. Enable sidebar using the command palette, run <code>side::kick()</code></p></li>
-</ul>
-</section></section>
+
 <section>
 <section id="extensions" class="title-slide slide level1 center">
 <h1>Extensions 🧩</h1>
@@ -259,6 +250,10 @@ Luis D. Verde Arregoitia
 <ol start="2" type="a">
 <li>Write comments or prose explaining what the code does</li>
 </ol>
+</section>
+<section id="extra" class="slide level2">
+<h2>Extra</h2>
+<p>Have any of the assistants translate the code to Python</p>
 </section>
 <section id="context-awareness" class="slide level2">
 <h2>Context awareness</h2>
@@ -348,7 +343,7 @@ Luis D. Verde Arregoitia
 <div class="cell">
 <div class="cell-output cell-output-stdout">
 <pre><code>$name
-[1] "G. Pineda"
+[1] "G. Pineda Reyes"
 
 $sport
 [1] "Football: Liga MX, MLS"
@@ -399,8 +394,8 @@ $ctry
 
 </section><section id="vision-output" class="slide level2 output-location-slide"><h2>4. Vision 🔭</h2><div class="cell output-location-slide">
 <div class="cell-output cell-output-stdout">
-<pre><code>Two dogs wearing orange life jackets are surfing together on a yellow surfboard
-in the water.</code></pre>
+<pre><code>The photo shows two dogs wearing orange life jackets surfing on a yellow 
+surfboard in the water.</code></pre>
 </div>
 </div></section></section>
 <section>
@@ -428,14 +423,11 @@ in the water.</code></pre>
 <h2></h2>
 <p><br><br></p>
 <ul>
+<li>CLI tools like Claude Code or Gemini CLI (H. Wickham keynote at rainbowR 2026)<br>
+</li>
 <li><a href="https://github.com/tidyverse/ggbot2">ggbot2</a></li>
 <li><a href="https://myownrobs.github.io/myownrobs/">myownrobs</a><br>
 </li>
-<li>cursor IDE<br>
-</li>
-<li><a href="https://www.lotas.ai/">Lotas</a> IDE offerings<br>
-</li>
-<li>Positron <a href="https://positron.posit.co/databot.html">databot</a> for EDA (experimental)</li>
 </ul>
 </section></section>
 <section id="thanks" class="title-slide slide level1 center">
