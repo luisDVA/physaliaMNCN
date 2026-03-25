@@ -193,4 +193,8 @@ Temporary: `Sys.setenv(OPENAI_API_KEY = "api_key")` (quoted) or "`ANTHROPIC_API_
 
 Permanent: `usethis::edit_r_environ()`
 
+# License
+
+All materials are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0).
+
 # Break

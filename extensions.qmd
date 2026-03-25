@@ -203,3 +203,7 @@ Let's write a wiki for the [data and code](https://zenodo.org/records/2727206) a
 -   [myownrobs](https://myownrobs.github.io/myownrobs/)\
 
 # 👋 Thanks!
+
+# License
+
+All materials are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0).

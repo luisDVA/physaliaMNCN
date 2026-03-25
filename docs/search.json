@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Course Website",
     "section": "",
-    "text": "9th Scientific Conference (MNCN-CSIC) - Integrating Large Language Model tools to our R workflows\nAll slides and materials live here. This one-day course is part of the 9th Scientific Conference of the National Museum of Natural Sciences (Museo Nacional de Ciencias Naturales, MNCN-CSIC), taking place on Wednesday, March 25th, 2026.\nThis site may be updated after the course to correct any issues, or to add links or interesting topics discussed during the day.\nInstructor: Luis D. Verde Arregoitia\n📆   25 March, 2026\n⏰   13:00-18:00 (Berlin Time)"
+    "text": "9th Scientific Conference (MNCN-CSIC) - Integrating Large Language Model tools to our R workflows\nAll slides and materials live here. This one-day course is part of the 9th Scientific Conference of the National Museum of Natural Sciences (Museo Nacional de Ciencias Naturales, MNCN-CSIC), taking place on Wednesday, March 25th, 2026.\nThis site may be updated after the course to correct any issues, or to add links or interesting topics discussed during the day.\nInstructor: Luis D. Verde Arregoitia\n📆   25 March, 2026\n⏰   13:00-18:00 (Berlin Time)\n\n\nLicense: All course materials are licensed under a Creative Commons Attribution 4.0 International License (CC-BY 4.0)."
   },
   {
     "objectID": "hands-on.html#contex-aware-help",
@@ -91,6 +91,13 @@
     "text": "Positron Assistant\n\nComes with recent versions of Positron\nHighly integrated\nMeant for R and Python\nLimited models supported at present\nDatabot feature for exploratory data analysis and visualization\n👀"
   },
   {
+    "objectID": "hands-on.html#posit-assistant",
+    "href": "hands-on.html#posit-assistant",
+    "title": "Integrating Large Language Model tools to our R workflows",
+    "section": "Posit Assistant",
+    "text": "Posit Assistant\n\nAvailable as of last month\nSubscription-based, 20 USD/month\nAvailable in RStudio (for now)"
+  },
+  {
     "objectID": "setup.html#hello",
     "href": "setup.html#hello",
     "title": "Integrating Large Language Model tools to our R workflows",
@@ -103,6 +110,13 @@
     "title": "Integrating Large Language Model tools to our R workflows",
     "section": "Online Guide",
     "text": "Online Guide\nTools, packages, and extensions for working with LLMs + R - Eng and Spa, updated monthly\n\nhome"
+  },
+  {
+    "objectID": "setup.html#vita-ex-machina",
+    "href": "setup.html#vita-ex-machina",
+    "title": "Integrating Large Language Model tools to our R workflows",
+    "section": "vita ex machina",
+    "text": "vita ex machina\nCollaborative blog on AI in science\n\nhome"
   },
   {
     "objectID": "setup.html#more-introductions",
@@ -175,11 +189,18 @@
     "text": "API key setup\nWe’ll provide keys for two popular providers. These will only be active during the course hours."
   },
   {
-    "objectID": "extensions.html#rstudio-sidebar-sidekick",
-    "href": "extensions.html#rstudio-sidebar-sidekick",
+    "objectID": "setup.html#subscriptions-vs-api-keys",
+    "href": "setup.html#subscriptions-vs-api-keys",
     "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "RStudio Sidebar + side::kick() 🎛️",
-    "text": "RStudio Sidebar + side::kick() 🎛️\n\nRStudio Sidebar (a new full-height pane for RStudio), available as of early Nov.\nside package\nInstall a daily RStudio build from &lt; 2 weeks ago. Enable sidebar using the command palette, run side::kick()"
+    "section": "Subscriptions vs API keys",
+    "text": "Subscriptions vs API keys\n\nPricing depends on usage\nSubscriptions range from ~5 to 250 USD/month for a single user, with limits on the number of requests and/or tokens\n\n2026 Cost comparison by ATPX"
+  },
+  {
+    "objectID": "setup.html#setup---r",
+    "href": "setup.html#setup---r",
+    "title": "Integrating Large Language Model tools to our R workflows",
+    "section": "Setup - R",
+    "text": "Setup - R\nTemporary: Sys.setenv(OPENAI_API_KEY = \"api_key\") (quoted) or “ANTHROPIC_API_KEY”\nPermanent: usethis::edit_r_environ()"
   },
   {
     "objectID": "extensions.html#check-installations-configure-keys",
@@ -194,6 +215,13 @@
     "title": "Integrating Large Language Model tools to our R workflows",
     "section": "Writing documentation",
     "text": "Writing documentation\n\nWith Positron Assistant (or Gander)\n\n\nWrite roxygen2 documentation for the function in randompenguins.R\n\n\nor\n\n\nWrite comments or prose explaining what the code does"
+  },
+  {
+    "objectID": "extensions.html#extra",
+    "href": "extensions.html#extra",
+    "title": "Integrating Large Language Model tools to our R workflows",
+    "section": "Extra",
+    "text": "Extra\nHave any of the assistants translate the code to Python"
   },
   {
     "objectID": "extensions.html#context-awareness",
@@ -256,7 +284,7 @@
     "href": "extensions.html#section-1",
     "title": "Integrating Large Language Model tools to our R workflows",
     "section": "",
-    "text": "$name\n[1] \"G. Pineda Reyes\"\n\n$sport\n[1] \"Football: Liga MX, MLS\"\n\n$ctry\n[1] \"Mexico\""
+    "text": "$name\n[1] \"G. Pineda\"\n\n$sport\n[1] \"Football: Liga MX, MLS\"\n\n$ctry\n[1] \"Mexico\""
   },
   {
     "objectID": "extensions.html#messy-tabular-data",
@@ -284,7 +312,7 @@
     "href": "extensions.html#vision-output",
     "title": "Integrating Large Language Model tools to our R workflows",
     "section": "4. Vision 🔭",
-    "text": "4. Vision 🔭\n\nThe photo shows two dogs wearing orange life jackets surfing on a yellow \nsurfboard in the water."
+    "text": "4. Vision 🔭\n\nTwo dogs wearing orange life jackets are surfing on a yellow surfboard in the \nwater."
   },
   {
     "objectID": "extensions.html#create-documentation-for-an-analytical-workflow",
@@ -446,47 +474,5 @@
     "title": "Integrating Large Language Model tools to our R workflows",
     "section": "LLMs are stateless",
     "text": "LLMs are stateless\n\n\nStart new chats often\nSplit up tasks across chats\nUse detailed system prompts"
-  },
-  {
-    "objectID": "setup.html#vita-ex-machina",
-    "href": "setup.html#vita-ex-machina",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "vita ex machina",
-    "text": "vita ex machina\nCollaborative blog on AI in science\n\nhome"
-  },
-  {
-    "objectID": "setup.html#subscriptions-vs-api-keys",
-    "href": "setup.html#subscriptions-vs-api-keys",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "Subscriptions vs API keys",
-    "text": "Subscriptions vs API keys\n\nPricing depends on usage\nSubscriptions range from ~5 to 250 USD/month for a single user, with limits on the number of requests and/or tokens\n\n2026 Cost comparison by ATPX"
-  },
-  {
-    "objectID": "setup.html#setup---r",
-    "href": "setup.html#setup---r",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "Setup - R",
-    "text": "Setup - R\nTemporary: Sys.setenv(OPENAI_API_KEY = \"api_key\") (quoted) or “ANTHROPIC_API_KEY”\nPermanent: usethis::edit_r_environ()"
-  },
-  {
-    "objectID": "hands-on.html#posit-assistant",
-    "href": "hands-on.html#posit-assistant",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "Posit Assistant",
-    "text": "Posit Assistant\n\nAvailable as of last month\nSubscription-based, 20 USD/month\nAvailable in RStudio (for now)"
-  },
-  {
-    "objectID": "extensions.html#extra",
-    "href": "extensions.html#extra",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "Extra",
-    "text": "Extra\nHave any of the assistants translate the code to Python"
-  },
-  {
-    "objectID": "hands-on.html",
-    "href": "hands-on.html",
-    "title": "Integrating Large Language Model tools to our R workflows",
-    "section": "",
-    "text": "Ask the chatbot in the browser IDE\nCopy Apply the response and paste it in R\nShare the errors or output with the chat\nRepeat (and potentially introduce errors)\n\n\n\n\n\n\n\n\nRobust and designed specifically for easy interaction with LLMs directly from R\nBroad provider support and meant for entreprise/production use\nAllows models to extend their capabilities by executing R code\n\n\n\n\n\n\n\n\n\nOutputs are immediately usable in R\nIntegrations to ‘see’ the R session\nStrong dev team\n\n\n\n\n\n\n\n\n\n\nMore than a simple chat window\nPowered by ellmer\nRStudio & Positron\n\n\n\ngander receives a snapshot of our environment with every request and recognizes what we are talking about, including object and variable names\n\n\n\nWe use ellmer to specify which model powers the addin (and optionally set a system prompt).\nToday we can use openAI or Anthropic models.\n\nuse with ctr+alt+G\n\nganderDemo.R\nSetup instructions for Positron here\n\n\n\n\nlibrary(ellmer)\nmy_chat &lt;- chat_openai() \nmy_chat\n\n Chat with the model then look at your chat object again\n Create a new chat object with a different model and system prompt\n\n\n\nWithout leaving R:\n\n\n\n\n\nlive_console(my_chat)\n\n\n\n\nlive_browser(my_chat)"
   }
 ]

@@ -14,3 +14,7 @@ Instructor: Luis D. Verde Arregoitia
 
 <span class='code'>📆 &ensp; 25 March, 2026</span>\
 <span class='code'>⏰ &ensp; 13:00-18:00 (Berlin Time)</span>\
+
+---
+
+**License:** All course materials are licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/) (CC-BY 4.0).
